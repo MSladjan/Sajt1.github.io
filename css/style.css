@@ -1,0 +1,249 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.glavni-meni {
+    background-image: url('../slike/st.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+}
+
+.glavni-meni h3 {
+    margin-top: 90px;
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.glavni-meni ul {
+    text-align: right;
+}
+
+.glavni-meni li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 90px;
+}
+
+.glavni-meni li a {
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+}
+
+.glavni-meni h1 {
+    color: white;
+    text-align: left;
+    margin-left: 130px;
+    margin-top: 150px;
+    font-size: 60px;
+}
+
+.glavni-meni h5 {
+    color: white;
+    text-align: left;
+    margin-left: 90px;
+    padding-bottom: 40px;
+}
+
+.glavni-meni .dugme {
+    border: 2px solid white;
+    margin-left: 250px;
+    padding: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.glavni-meni .dugme:hover {
+    background-color: white;
+    color: black;
+}
+
+.sekcija1 {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    
+}
+
+.sekcija1 img {
+    height: 600px;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+
+}
+
+.sekcija1 h2 {
+    font-weight: bold;
+    text-align: left;
+    padding-top: 80px;
+}
+
+.sekcija1 .dugme {
+    border: 2px solid black;
+    padding: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+
+.sekcija1 p {
+    padding-bottom: 50px;
+}
+
+.sekcija1 .dugme:hover {
+    background-color: black;
+    color: white;
+}
+
+.sekcija2 {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    text-align: center;
+}
+
+.sekcija2 h2 {
+    font-weight: bold;
+}
+
+.sekcija2 .tekst h3 {
+    font-weight: bold;
+}
+
+.sekcija2 p {
+    padding-bottom: 50px;
+    color: grey;
+}
+
+.sekcija2 .tekst img {
+    height: 70px;
+    width: 70px;
+}
+
+.sekcija3 {
+    background-color: teal;
+    padding-top: 90pxpx;
+    padding-bottom: 120px;
+    text-align: center;
+}
+
+.sekcija3 .kutija {
+    border: transparen;
+    display: block;
+    padding-bottom: 60px;
+    background-color: white;
+
+}
+
+.sekcija3 .kutija img {
+    width: 415.5px;
+    height: 235px;
+    padding-bottom: 20px;
+}
+
+
+.sekcija3 h1 {
+    font-size: 70px;
+    font-weight: bold;
+    padding-top: 100px;
+}
+
+.sekcija3 p {
+    padding-bottom: 60px;
+}
+
+.sekcija3 .kutija .datum {
+    color: #ced4da;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+.sekcija3 .kutija a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 32px;
+    transition: 0.5s;
+}
+
+.sekcija3 .kutija a:hover {
+    color: blue;
+}
+
+.sekcija3 .kutija p {
+    color: grey;
+}
+
+.sekcija4 {
+    background-color: white;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    text-align: center;
+}
+
+.sekcija4 h1 {
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+.sekcija4 .krug {
+    text-align: left;
+    margin-left: 100px;
+}
+
+.sekcija4 .krug p {
+    padding-top: 10px;
+}
+
+.sekcija4 .krug em {
+    color: grey;
+}
+
+
+
+.sekcija4 .krug img {
+    clip-path: circle(50% at 50% 50%);
+    height: 70px;
+    width: 70px;
+}
+
+.kraj {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: black;
+}
+
+.kraj h4 {
+    color: white;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.kraj li {
+    display: flex;
+}
+
+.kraj li a {
+    text-decoration: none;
+    color: grey;
+    padding-block: 5px;
+}
+
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 1200px) {
+    .glavni-meni h3 {
+        color: red;
+        float: left;
+    }
+    
+}
+
